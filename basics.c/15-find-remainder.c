@@ -8,10 +8,10 @@ int main(){
     scanf("%d", &a);
     printf("enter second number");
     scanf("%d",&b);
-     q=a/b;
+    /* q=a/b;
      r = a-b*q;  //divisor*quotient+remainder=divident
+     printf("the remainder when %d is divided by  %d is: %d",a,b,r);*/
+     r = a%b;  //gives remainder
      printf("the remainder when %d is divided by  %d is: %d",a,b,r);
-
-
     return 0;
 }
