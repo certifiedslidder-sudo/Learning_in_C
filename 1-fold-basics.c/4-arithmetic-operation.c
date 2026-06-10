@@ -7,6 +7,6 @@ int main()
     printf("%d\n",x+y);
     printf("%d\n",x-y);
     printf("%d\n",x*y);
-    printf("%d\n",x/y);  // '/'=gives quotient
+    printf("%d\n",x/y);  // '/'=gives quotient(as %d therefore it will take greatest integer function)
     return 0;
     }

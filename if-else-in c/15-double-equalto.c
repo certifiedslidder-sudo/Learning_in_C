@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 int main(){
-    int n=5;
-    if(n==2){
+    int n=5;    // = updates value , assignment 
+    if(n==2){    // == checks the expression , condition
         printf("good morning ");
     }
     else{
@@ -10,7 +10,7 @@ int main(){
     }
     return 0;
 }
- /*conditon
+ /*conditon operators
  a==b
  a>b
  a<b

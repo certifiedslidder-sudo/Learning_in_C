@@ -1,3 +1,5 @@
+// take 3 numbers input and tell if they can be sides of a triangle.
+
 #include<stdio.h>
   /*logic=
   x+y>z

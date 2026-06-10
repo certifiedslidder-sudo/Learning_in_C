@@ -1,3 +1,6 @@
+//given the length and breadth of a rect, WAP to find whether the area of rect. is greater than its perimeter.
+
+
 #include<stdio.h>
 
 int main(){
