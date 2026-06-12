@@ -1,2 +1,10 @@
 *.exe
 *.lnk
+if-else-in c/20-straight-line.c
+if-else-in c/21-point-x-axis-y-or-origin.c
+if-else-in c/21-point-x-axis-y-or-origin.c
+*.c
+*.c
+*.c
+*.c
+/if-else-in c
