@@ -1,0 +1,16 @@
+/*
+Write a program to print multiplication table of a given number n.
+*/
+ 
+#include<stdio.h>
+
+int main(){
+    int n;
+    scanf("%d",&n);
+    for (int  i = 1; i <11; i++)
+    {
+        printf("%d X %d is= %d\n", n, i, n*i);
+    }
+    
+    return 0;
+}
