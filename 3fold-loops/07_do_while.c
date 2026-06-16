@@ -20,3 +20,4 @@ int main(){
     
     return 0;
 }
+// one statement will always be printed, after that the condition will check and loop prints accordingly.
