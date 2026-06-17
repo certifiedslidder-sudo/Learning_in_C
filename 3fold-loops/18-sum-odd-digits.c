@@ -2,6 +2,7 @@
 // hint : use % operator :will store last digit, / operator
 
 
+
 #include<stdio.h>
 
 int main(){
@@ -13,10 +14,13 @@ int main(){
    while(n!=0)
    {
     lastdigit = n%10;
+    if(lastdigit%2!=0)
+    {
     sum += lastdigit;
-    n =n/10;
-
+  
+    }
+  n =n/10;
    }
-   printf("the sum of digits are %d" , sum);
+   printf("the sum of odd digits are %d" , sum);
     return 0;
 }
