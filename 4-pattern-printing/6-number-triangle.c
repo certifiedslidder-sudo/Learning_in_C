@@ -1,3 +1,9 @@
+/*
+           1
+           12
+           123
+           1234
+*/
 #include <stdio.h>
 int main()
 {
