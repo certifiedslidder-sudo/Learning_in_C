@@ -14,9 +14,9 @@ int main(){
     scanf("%d",&m);
     for(int i=1;i<=n;i++)
     { 
-        for(int i=1;i<=m;i++)
+        for(int j=1;j<=m;j++)
         {
-            if() printf("*");
+            if( i==1 || i==4 || j==1 || j==6) printf("*");
         else printf(" ");
         }
         printf("\n"); 
