@@ -2,10 +2,8 @@
 
 int main(){
     int x = 100;
-    printf("%d",x);
     int* y = &x;
-    printf("\n%d", &x);
-    printf("\n%d", y);
-    
+    *y = 7;
+    printf("\n%d",x );
     return 0;
 }

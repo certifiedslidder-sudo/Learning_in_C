@@ -1,8 +1,5 @@
 #include<stdio.h>
- 
-
 //sum should change the value of x
-
     int sum (int* ,int* );
     int sum(int* a, int* b){
         *a = 6;

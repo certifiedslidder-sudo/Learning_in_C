@@ -1,8 +1,8 @@
 #include<stdio.h>
-
-
-    int sum (int,int);
+    int sum (int a,int b);
     int sum(int a, int b){
+         a = 3;
+         b =9;
     return a+b;
     }
 int main(){

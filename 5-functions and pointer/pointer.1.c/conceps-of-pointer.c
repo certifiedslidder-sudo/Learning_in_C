@@ -1,17 +1,12 @@
 #include <stdio.h>
 
 int main(){
-
-   int var = 10;
-   int *intptr = &var;
-   int **ptrptr = &intptr;
-   
-   printf("var: %d \nAddress of var: %d \n\n",var, &var);
-   printf("inttptr: %d \nAddress of inttptr: %d \n\n", intptr, &intptr);
-   printf("var: %d \nValue at intptr: %d \n\n", var, *intptr);
-   printf("ptrptr: %d \nAddress of ptrtptr: %d \n\n", ptrptr, &ptrptr);
-   printf("intptr: %d \nValue at ptrptr: %d \n\n", intptr, *ptrptr);
-   printf("var: %d \n*intptr: %d \n**ptrptr: %d", var, *intptr, **ptrptr);
-   
+int a = 25;
+int* x = &a;
+int** y = &x;  // double pointer
+// int* ---> int ka address store karta hai
+// int** ---> int* ka address store krta hai
+printf("%p\n",&x);
+printf("%p\n",y);
    return 0;
 }
