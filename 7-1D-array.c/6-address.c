@@ -1,3 +1,6 @@
+  //ARRAY DOES CONTINUOUS MEMORY ALLOCTION WHICH HELPS IN FETCHING DATA EASILY.
+
+  
 #include<stdio.h>
 
 int main(){

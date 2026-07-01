@@ -1,3 +1,4 @@
+//calculate the sum of all the elements in the given array.
 #include<stdio.h>
 
 int main(){
