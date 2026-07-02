@@ -5,7 +5,7 @@
 int main(){
     int arr[8] = {1,2,3,4,5,6,7,8};
     int totalTriplets = 0;
-    int x= 12;
+    int x= 12; //you can also take x from user.
     for(int i=0; i <=7; i++){
         for(int j=i+1; j<=7; j++){
             for(int k = j+1;k<=7;k++){
@@ -17,6 +17,6 @@ int main(){
             
         }
     }
-
+     printf("%d\n", totalTriplets);
     return 0;
 }
