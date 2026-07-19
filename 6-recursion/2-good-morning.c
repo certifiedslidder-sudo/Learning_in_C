@@ -1,8 +1,8 @@
 #include<stdio.h>
    void greeting(int n){
-    if(n==0) return;
+    if(n==0) return;    //base case
     printf("good morning\n");
-    greeting(n-1);
+    greeting(n-1);   // recursive case
     return;
    }
 int main(){
