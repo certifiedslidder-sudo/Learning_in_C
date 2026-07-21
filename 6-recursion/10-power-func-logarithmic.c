@@ -15,7 +15,7 @@ int main(){
        printf("enter base: ");
        scanf("%d",&a);
        int b ;
-       printf("enter power: ");
+       printf("enter power: ");    // this code isnt accurate for odd power.
        scanf("%d",&b);
        int p = powerLOG(a,b);
        printf("%d  raised to the power %d is %d",a,b,p);      

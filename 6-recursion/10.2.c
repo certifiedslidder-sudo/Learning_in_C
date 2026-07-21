@@ -1,7 +1,7 @@
 #include<stdio.h>
 int powerLOG(int a, int b){     // imp dry run
-    if (b==1) return a;                          
-   // if (b==0) return 1;                          
+    //if (b==1) return a;                          
+   if (b==0) return 1;                          
     int x = powerLOG(a,b/2);
     if(b%2 ==0)
         return x*x;
