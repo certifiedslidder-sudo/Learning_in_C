@@ -3,15 +3,18 @@
 int main(){
     char str[40];
     puts("enter a string");             //  puts automatically adds new line
-    fgets("%[^\n]",stdin);
-    /// size
-    int size =0;
+   scanf("%[^\n]s",str);
+    puts(" the size of the string is: ");
+ 
+    //size
+    int size = 0;
     int k = 0;
-    while(str[k]!='0'){
+    while (str[k]!='\0'){
         size++;
         k++;
 
     }
+    printf("%d", size);
 
     //// for reversing
     for(int i=0,j=size-1;i<=j;i++,j--){
@@ -19,7 +22,7 @@ int main(){
     str[i] = str[j];
     str[j] = temp;
     }
-puts("the reverse string is :");
+puts("\nthe reverse string is :");
 puts(str);
 return 0;
 }

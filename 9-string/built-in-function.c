@@ -2,6 +2,8 @@
 #include<string.h>
 
 int main(){
+    char arr[5] ={'a','f','g','t','d'};
+    printf("%c" , arr[2]);
 
                   /*strlen*/
     // char*str = "sneha rawat";
