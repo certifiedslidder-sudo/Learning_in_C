@@ -5,7 +5,7 @@ int main(){
    printf("%s\n",str);
          //2nd index pe 'k'
     for(int i=6;i>=2;i--){
-        str[i+1] = str[i];
+        str[i+1] = str[i];    // inserting / pushing but not replacing
 
     }
     str[2] = 'k';
