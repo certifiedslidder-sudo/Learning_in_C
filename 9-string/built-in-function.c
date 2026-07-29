@@ -5,13 +5,13 @@ int main(){
     char arr[5] ={'a','f','g','t','d'};
     printf("%c" , arr[2]);
 
-                  /*strlen*/
+                  /*strlen      gives lenth of string witout considering null character*/
     // char*str = "sneha rawat";
-    // int x = strlen(str);
+    // int x = strlen(str);      
     // printf("%d",x);
     
 
-             /*strcpy*/
+             /*strcpy --> copies content of srring s2 to string s1*/
 
 //        char s1[12] = "raghav garg";
 //        char s2[12];
@@ -22,17 +22,19 @@ int main(){
 
             // therefore a deep copy
        
-                    /*STRCAT*/
+                    /*STRCAT   --> cocat s1 string with s2 and stores the result in s1*/
 
-    //  char s1[11] = "raghav ";
+    //  char s1[11] = "raghav ";    YOU'LL  have to give more size when you have to cancat.
+
     //    char s2[5] = "garg";
-    // strcat(s1,s2);                           //AS STRING
-    // printf("%s",s2);
+    // strcat(s1,s2);
+    // printf("%s",s1);       MIGHT GIVEC ERROR IF WE DONT GIVE SIZE
     
-// char*s1[11] = "raghav ";        //read only
+
+//        char*s1[11] = "raghav ";        //read only
 //        char *s2[5] = "garg";   // read only
-//     strcat(s1,s2);                            //as pointer 
-//     printf("%s",s2);
+//        strcat(s1,s2);                            //as pointer 
+//        printf("%s",s2);
     
 
     return 0;
