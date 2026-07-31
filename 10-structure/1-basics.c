@@ -5,8 +5,10 @@ int main(){
         int speed;
         int attack;
         char tier;     // this cant be done in array
-    } pikachu, charlizard, newton;       //  VARIABLE DECLARED
+    } pikachu, charlizard, newton;       //  VARIABLE DECLARED,these three are objects of class pokemon
     //by writing this you can avoid writing line 11,19,25
+
+//  note  -->   ;(semicolon) marks the completed creation of data type
 
 
     //struct pokemon pikachu;
